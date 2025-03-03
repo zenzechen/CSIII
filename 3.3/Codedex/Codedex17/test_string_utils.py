@@ -2,7 +2,7 @@ import unittest
 from string_utils import reverse_string, capitalize_string, is_capitalized
 
 class TestStringUtils(unittest.testcase):
-    
+
     def test_reverse_string(self):
         result = "hello"
         self.assertEqual(result, reverse_string("olleh"))
@@ -13,3 +13,4 @@ class TestStringUtils(unittest.testcase):
         self.assertTrue(is_capitalized("hello"))
 
 if __name__ == '__main__':
+    unittest.main()
