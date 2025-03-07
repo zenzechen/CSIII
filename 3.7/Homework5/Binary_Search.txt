@@ -12,3 +12,6 @@ BinarySearch(arr, target):
             right = mid - 1 
     
     return -1 
+
+Worst Case: O(log n) (each step halves the search space)
+Best Case: O(1) (if the target is found in the first comparison)
